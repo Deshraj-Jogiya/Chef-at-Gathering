@@ -1,10 +1,10 @@
 # Chef at Gathering
 
-> Team project. This repository holds the team's code; the section below describes my part.
+> Team project. This repository holds the team's code; the section below lists the individual contribution.
 
 A React web app for booking professional chefs and catering for events, built by a small team (Nov 2022 – Mar 2023).
 
-## My part
+## Individual contribution
 
 - Responsive, accessible React components for browsing chefs and booking on desktop and mobile.
 - Wiring the React state to the backend REST endpoints so booking availability updates live.
