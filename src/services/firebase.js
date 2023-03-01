@@ -11,7 +11,7 @@ import { getFirestore, collection, addDoc, serverTimestamp, onSnapshot, query, o
 //     measurementId: "G-7841L00ZDM"
 // };
 const firebaseConfig = {
-    apiKey: "YOUR_FIREBASE_API_KEY",
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: "chef-republic.firebaseapp.com",
     databaseURL: "https://chef-republic-default-rtdb.firebaseio.com",
     projectId: "chef-republic",
