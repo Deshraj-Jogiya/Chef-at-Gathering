@@ -1,0 +1,72 @@
+{
+  "name": "chef-republic",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.10",
+    "@mui/styled-engine-sc": "^5.11.9",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "credit-card-space": "^1.4.2",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.15.0",
+    "formik": "^2.2.9",
+    "framer-motion": "^10.0.0",
+    "jquery": "^3.6.1",
+    "localforage": "^1.10.0",
+    "os-browserify": "^0.3.0",
+    "otp-input-react": "^0.3.0",
+    "react": "^18.2.0",
+    "react-calendar": "^4.0.0",
+    "react-camera-pro": "^1.2.2",
+    "react-datepicker": "^4.10.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.39.1",
+    "react-icons": "^4.6.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-pdf": "^6.2.2",
+    "react-responsive": "^9.0.0",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "^5.0.1",
+    "react-simple-star-rating": "^5.1.7",
+    "react-tooltip": "^5.8.3",
+    "react-webcam": "^7.0.1",
+    "react-yup": "^1.24.1",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^3.0.3",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "14.15.0",
+    "npm": "6.14.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

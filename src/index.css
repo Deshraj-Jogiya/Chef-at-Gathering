@@ -1,0 +1,591 @@
+.navbar-brand img {
+  max-height: 50px !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.check_symbol {
+  color: #f9f5f5;
+  background: #ff5e41;
+  padding: 16px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.center-body-container {
+  width: 390px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 20px 20px;
+  padding: 28px;
+}
+
+* {
+  font-family: "Manrope";
+  letter-spacing: 1px;
+}
+
+#terms-condition h6 {
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+nav {
+  background-color: #fff;
+  color: rgba(30, 30, 30, 1);
+  font-size: 0.9rem;
+}
+
+.error-msg {
+  font-size: 0.8rem;
+  color: red;
+  padding-top: 3px;
+  padding-left: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input.invalid {
+  border-color: red;
+}
+
+input:active,
+textarea:active {
+  border-color: rgba(237, 237, 237, 1) !important;
+  background: rgba(237, 237, 237, 1) !important;
+}
+
+input:-webkit-autofill {
+  border-color: rgba(237, 237, 237, 1) !important;
+  background: rgba(237, 237, 237, 1) !important;
+}
+
+/* textarea::selection,
+input::selection,
+input:active {
+  border-color: rgba(237, 237, 237, 1) !important;
+  background: rgb(255, 94, 65);
+  padding: auto !important;
+  margin: auto !important;
+  color: rgb(255, 94, 65) !important;
+} */
+
+input[type="tel"],
+input[type="date"],
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"] {
+  border-radius: 30px !important;
+  background: rgba(237, 237, 237, 1) !important;
+  padding: 10px 15px !important;
+}
+
+input[type="tel"],
+input[type="date"],
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"] {
+  border-radius: 30px !important;
+  background: rgba(237, 237, 237, 1) !important;
+  padding: 10px 15px !important;
+}
+select {
+  border-radius: 30px !important;
+  background: rgba(237, 237, 237, 1) !important;
+  padding: 10px 15px !important;
+}
+textarea {
+  border-radius: 20px !important;
+  background: rgba(237, 237, 237, 1) !important;
+  padding: 10px 15px !important;
+  resize: none;
+  border: none;
+}
+
+.feedback-owner {
+  display: flex;
+  align-items: center;
+}
+
+.feedback-owner > h6 {
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+#customercoverBack,
+#chefcoverBack {
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100px;
+  z-index: 0;
+  height: 650px;
+  width: 100%;
+}
+
+#customerDesc {
+  position: relative;
+  background-color: rgba(255, 94, 65, 0.2);
+  padding: 80px 25%;
+  top: 680px;
+  left: 0;
+  right: 0;
+}
+
+#title-mobile,
+#title-desktop {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+#title-mobile {
+  display: none;
+  padding: 0;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#benefitsPercentage {
+  font-size: 10rem;
+  font-weight: 700;
+}
+
+#benefits-desc {
+  text-align: left;
+  width: 70%;
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 15px;
+}
+
+#diet-offer,
+#whyRepublic,
+#HowWorksChef,
+#HowWork,
+#faq,
+#HomeSignup,
+footer,
+#Benefits,
+#feedback {
+  position: relative;
+  top: 660px;
+  left: 0;
+  right: 0;
+}
+
+#customercoverShadow,
+#chefcoverShadow {
+  background: linear-gradient(
+    180deg,
+    #ffffff 66.26%,
+    rgba(255, 255, 255, 0.820584) 84.05%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: absolute;
+  left: 0;
+  height: 500px;
+  right: 0;
+}
+
+#customercover > h1,
+#chefcover > h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+#customercover > h4,
+#chefcover > h4 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+#customercover > h5 {
+  width: 300px;
+  font-size: 1.15rem;
+}
+
+#chefcover > h5 {
+  width: 500px;
+  font-size: 1.15rem;
+}
+
+.btn-orange,
+.btn-orange:disabled,
+.btn-white:hover,
+.btn-white:active {
+  text-decoration: none;
+  color: white !important;
+  background-color: #ff5e41;
+  border-radius: 40px;
+  border: 1px solid #ff5e41;
+  padding: 10px 30px !important;
+  font-size: 0.9rem;
+}
+.btn-orange-disabled {
+  text-decoration: none;
+  color: white !important;
+  background-color: #ff5e41;
+  border-radius: 40px;
+  border: 1px solid #ff5e41;
+  padding: 10px 30px !important;
+  font-size: 0.9rem;
+}
+.btn-white-disabled {
+  text-decoration: none;
+  color: #ff5e41 !important;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 1px solid #ff5e41;
+  padding: 10px 30px !important;
+  font-size: 0.9rem;
+}
+
+.btn-white,
+.btn-white:disabled,
+.btn-orange:hover,
+.btn-orange:active {
+  text-decoration: none;
+  color: #ff5e41 !important;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 1px solid #ff5e41;
+  padding: 10px 30px !important;
+  font-size: 0.9rem;
+}
+
+.diet-card {
+  text-align: center;
+  border-radius: 36px;
+  border: none;
+  /* font-size: 1.2rem; */
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 40px 10px;
+  /* margin: 1%; */
+  /* flex: 1 0 17%; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+.mobile-footer {
+  display: none !important;
+}
+
+#copyright {
+  color: #8e8e8e;
+}
+
+#signup-chef {
+  background-color: #ff5e41;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+#signup-chef > a {
+  background-color: #fff;
+  color: #ff5e41;
+  border-radius: 40px;
+  border: none;
+  padding: 7px 40px;
+  font-size: 0.8rem;
+}
+
+#apply-chef {
+  background-color: #ededed;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+#apply-chef > a {
+  background-color: #125066;
+  color: #fff;
+  border-radius: 40px;
+  border: none;
+  padding: 8px 40px;
+  font-size: 0.8rem;
+}
+
+#apply-chef > h5 {
+  color: #125066;
+}
+
+#faq-list > a {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+#faq-list > a:hover {
+  background-color: transparent;
+}
+
+.benefits {
+  height: auto;
+  background-color: #ff5e41;
+  color: #fff;
+}
+
+.benefits > div {
+  padding: 50px 100px;
+}
+
+.digit-group input {
+  padding: 0 !important;
+  width: 30px;
+  height: 50px;
+  background-color: #18182a;
+  border: none;
+  line-height: 50px;
+  text-align: center;
+  font-size: 24px;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-weight: 200; */
+  color: black !important;
+  margin: 2px;
+}
+
+@media screen and (max-width: 1068px) {
+  .feedback-owner {
+    flex-direction: column;
+  }
+
+  #navbarNavAltMarkup,
+  #footerAltMarkup {
+    display: none !important;
+  }
+
+  #chef-sign-btn {
+    background-color: #125066;
+  }
+
+  #customercoverBack,
+  #chefcoverBack {
+    height: 230px;
+    top: 370px;
+  }
+
+  #customercoverShadow,
+  #chefcoverShadow {
+    background: linear-gradient(
+      180deg,
+      #ffffff 75.5%,
+      rgba(155, 216, 218, 0) 100%
+    );
+    height: 430px;
+  }
+
+  #customercover > h1,
+  #chefcover > h1 {
+    font-size: 2rem;
+    width: 300px;
+  }
+
+  #customercover > h5,
+  #chefcover > h5 {
+    font-size: 0.9rem;
+  }
+
+  #diet-offer,
+  #whyRepublic,
+  #HowWorksChef,
+  #customerDesc,
+  #HowWork,
+  #faq,
+  footer,
+  #Benefits,
+  #feedback,
+  #HomeSignup {
+    top: 515px;
+  }
+
+  #title-mobile {
+    display: block;
+  }
+
+  #title-desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .diet-card {
+    flex: 48%;
+  }
+
+  #customerDesc {
+    padding: 40px 6%;
+  }
+
+  #benefits-desc {
+    text-align: center;
+    width: 97%;
+  }
+
+  #chefcover > h5 {
+    width: 350px;
+  }
+
+  .mobile-footer {
+    display: block !important;
+  }
+}
+
+.diet-card-profile {
+  text-align: center;
+  border-radius: 36px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 20px 10px;
+  margin: 1%;
+  flex: 1 0 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+#profile-chef-complete .time-availablibilty {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 9px;
+  /* height: 51.44px; */
+  background: #ededed;
+  text-align: center;
+  border-radius: 40px;
+}
+
+#profile-chef-complete .time-availablibilty-card {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white !important;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  font-weight: 600;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover !important;
+  padding: 20px 20px;
+  background: #ededed;
+  border-radius: 40px;
+}
+
+#profile-chef-complete .time-availablibilty::selection {
+  background: #ff5e41;
+}
+
+#profile-chef-complete .time-availablibilty-card::selection {
+  background: #ff5e41;
+  background-image: none !important;
+  box-shadow: none;
+}
+
+#profile-chef-complete .input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+#profile-chef-complete input[type="checkbox"] + label > img {
+  border: 1px rgb(0, 0, 0);
+  padding: 10px;
+  transition: 500ms all;
+}
+
+#profile-chef-complete input[type="checkbox"]:checked + label {
+  background-color: #ff5e41;
+  color: #fff;
+  background-image: none !important;
+  box-shadow: none;
+}
+#profile-chef-complete input[type="radio"] + label > img {
+  border: 1px rgb(0, 0, 0);
+  padding: 10px;
+  transition: 500ms all;
+}
+
+#profile-chef-complete input[type="radio"]:checked + label {
+  background-color: #ff5e41;
+  color: #fff;
+  background-image: none !important;
+  box-shadow: none;
+}
+
+#profile-chef-complete input[type="radio"]:disabled + label {
+  background-color: #8e8e8e;
+  color: #fff;
+  background-image: none !important;
+  box-shadow: none;
+}
+
+.fixBox {
+  position: fixed;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0px !important;
+  z-index: 999;
+  background-color: white;
+}
+
+.fixBoxOrange {
+  position: fixed;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0px !important;
+  z-index: 999;
+  background: #ffdfd9;
+}
+
+.prof .owl-dots {
+  position: absolute;
+  text-align: center;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+}
+
+#datePicker {
+  width: "100%" !important;
+  border-radius: "30px" !important;
+  padding: "10px" !important;
+  background: "#fff" !important;
+  border: "none" !important;
+  font-size: "0.9rem" !important;
+  font-weight: 400 !important;
+}
+#datePicker input {
+  border-radius: 0 !important;
+  background: transparent !important;
+  padding: 5px !important;
+}
